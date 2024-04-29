@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/bootstrap-5.3.3-dist/css/bootstrap.css">
+    <link rel="stylesheet"  href="/style.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/style-confimacao.css">
+    <link rel="stylesheet" href="/style-list.css">
+    <!-- fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Julius+Sans+One&family=Libre+Caslon+Display&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <title>Wengles e Larisa</title>
+   
+</head>
+<body>
+    <section class=" position-relative">
+        <div class="home position-absolute z-5">
+            <a href="/index.html">
+                <i class="bi bi-house-fill"></i>
+            </a>
+        </div>
+        <div class="section-banner-area text-center position-relative d-flex flex-column">
+            <div class="section-details-title d-flex flex-column my-5 py-5 text-uppercase text-white">
+                <h4 id="invitation-section" class="d-flex"  >  <hr class="me-2"> Você é uma peça importante deste nosso <hr class="ms-2"> </h4> 
+                <h1 id="invitation-main" >novo passo</h1>
+            </div>
+            <div class="button-area d-flex gap-5 justify-content-center d-none ">
+                <a href="" class=" btn-confirmation me-5 pen-info"><button  style="background-color: transparent;"> confirmar presença</button></a>
+                <a href="" class="btn-gift ms-5 pen-info"><button> Lista de presentes</button></a>
+            </div>
+           
+           
+    
+            </div>
+        </div>
+      
+        <div class="text-section text-center d-flex flex-column ">
+            <div class="section-details-title d-flex flex-column my-5 text-uppercase text-center w-100">
+                <h1 id="invitation-section" class="d-flex align-self-center"  >Lista de presentes</h1> 
+            
+            </div>
+            <div class="ver-txt w-50   align-self-center d-flex flex-column position-relative">
+                <div class="background-shape position-absolute"  style="z-index:1 !important;">
+                    <img src="/layout-images/62424.png" alt="">
+                </div>
+                    <p>
+                        É uma alegria imensa poder compartilhar este momento tão especial com todos vocês! Sua presença em nosso chá de casa nova é verdadeiramente valiosa e queremos expressar nossa gratidão por estarem aqui conosco.
+                        <br><br>
+                        Abaixo, você encontrará nossa lista de presentes para o chá de casa nova. Escolhemos cuidadosamente uma variedade de itens que gostaríamos de adicionar ao nosso novo lar, e ficaríamos honrados em recebê-los como presentes.
+                        <br><br>
+                        Sintam-se à vontade para escolher qualquer presente da lista que mais combine com vocês. No entanto, se desejarem contribuir com algo que não esteja na lista, estamos mais do que felizes em recebê-lo também! Basta entrar em contato conosco e será um prazer receber seu presente especial.
+                        <br><br>
+                        Além disso, saibam que não há limites para a quantidade de presentes que vocês podem escolher. <span> Se desejarem contribuir com um valor em dinheiro ou preferirem contribuir com o valor de um presente específico,</span> a <span>chave Pix</span> estará disponível para facilitar o processo.
+                        <br><br>
+                        <p class="text-uppercase">instruções</p>
+                        <span id="instrucoes"> Para selecionar um presente da lista, basta clicar no item desejado e será aberta uma página de confirmação. Nessa página, você terá a oportunidade de confirmar sua escolha e, em seguida, será direcionado automaticamente para o WhatsApp. Tudo o que você precisa fazer é clicar no botão enviar para nos informar o presente que escolheu.
+                            <br><br>
+                        </span>
+                    </p>
+                <div class="listArea container">
+                 <div class="area-pix text-uppercase">
+                    <details style="">
+                        <summary> <h4>área pix</h4> </summary>
+                    
+                        <div class="content-pix">
+                            <p id="qr-title">Use o QR Code do pix o se preferir basta copiar o código</p>
+                            <div id="qr-area">
+                                <img src="/layout-images/qrcode.png" alt="" class="w-100 h-100">
+                            </div>
+                            <div id="codigo">
+                                <p> <div id="ccg"> d96ce7d9-3258-4e30-8cf5-86c01a531a22</div> <i class="bi bi-copy"></i> </p>
+
+                                <span id="copyMensage">O Código foi copiado</span>
+                            </div>
+
+                            
+                        </div>
+                    
+                    </details>
+                 </div>
+                </div>
+             
+                <div class="area-list">
+                    <p id="area"  style="display: none !important;"></p> 
+                    <div class="modal w-100 h-100  justify-content-center align-items-center position-relative " >
+                     
+                
+                        <div class="item-exib py-5 px-4 d-flex justify-content-center align-items-center  position-relative flex-column ">
+                            <button class="close-modal d-flex justify-content-center align-items-center">
+                                <i class="bi bi-x-lg"></i>
+                            </button>
+                            <div class="item-img">
+                                <img src="" alt="" >
+                            </div>
+                            <h3 class="item-name my-2"></h3>
+                
+                            <p>Uma otima escolha de presente, iremos amar <i class="bi bi-heart-fill" style="color:var(--tertiary-color)"></i> </p>
+                
+                            <button class="gift">Dar presente <i class="bi bi-gift"></i></button>
+                        </div>
+                    </div>
+                    <div class="overlay"></div>
+                </div>
+                <div class="presente-text">
+            
+
+                </div>
+    
+               
+                    
+            </div>
+           
+           
+        </div>
+    </section> 
+    
+    <footer class="text-center">
+     
+      
+    
+    </footer>
+   
+<!-- <form id="presenteForm">
+    <label for="nome">Nome do presente:</label>
+    <input type="text" id="nome" required>
+    <label for="categoria">Categoria:</label>
+    <select id="categoria">
+        <option value="sala">Sala</option>
+        <option value="quarto">Quarto</option>
+        <option value="banheiro">Banheiro</option>
+        <option value="lavanderia">Lavanderia</option>
+        <option value="eletrodomesticos">Eletrodomésticos</option>
+        <option value="utensilios">Utensílios</option>
+    </select>
+    <button type="button" onclick="adicionarPresente()">Adicionar</button>
+</form>  -->
+<!-- <button id="btn-reset" class=" position-absolute" style="background-color: red; width:200px; height:30px;" ></button> -->
+  
+
+    
+<script src="/assets/bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+<script src="/presentes.js"></script>
+<script src="/script-ps.js" type="module"></script>
+<script src="https://kit.fontawesome.com/3ed61788b1.js" crossorigin="anonymous"></script>
+</body>
+</html>

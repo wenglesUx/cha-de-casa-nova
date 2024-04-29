@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/bootstrap-5.3.3-dist/css/bootstrap.css">
+    <link rel="stylesheet"  href="/style.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Julius+Sans+One&family=Libre+Caslon+Display&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <title>Wengles e Larisa</title>
+</head>
+<style>
+   
+  
+</style>
+<body>
+
+<header style="" class="position-relative">
+    <div class="nav  position-relative">
+        <div class="btn-menu-icon position-absolute d-flex flex-column gap-2">
+            <div class="line-menu-fs"></div>
+            <div class="line-menu-sc"></div>
+            <div class="line-menu-tr"></div>
+        </div>
+        <div class="menu navbar">
+            <ul class="d-flex gap-3 flex-column">
+                <li>
+                    <a href="" data-bs-toggle="modal" data-bs-target="#sobreModal">sobre</a>
+                </li>
+
+                <li>
+                    <a href="/confirmação.html">
+                    confirmar presença
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="#dataLocal">
+                        data e local
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- <div class="banner-area position-relative">
+        <div class="image-content">
+            <div class="image-frame">
+                <img src="/layout-images/Mask group (7).png" alt="">
+            </div>
+        </div>
+        <div class="text-side text-center d-flex flex-column align-items-center justify-content-center z-2 ">
+            <h1 id="text-element1">Wengles</h1>
+            <h3 id="text-element2">&</h3>
+            <h1 id="text-element3">Larissa</h1>
+        </div>
+
+        <div class="filter-banner w-100 h-100 position-absolute d-flex align-items-center justify-content-center">
+            <div id="center-flower" class="position-absolute d-flex">
+                
+            </div>
+        </div>
+        
+
+        <div id="right-flower" class="position-absolute">
+            <img src="/layout-images/right-flower.png" alt="" class="h-100 w-100">
+        </div>
+
+    </div> -->
+    <div class="banner-content d-flex position-relative">
+        <div class="left-side h-100">
+            <div class="text-side text-center d-flex flex-column align-items-center justify-content-center z-2  h-100">
+                <div id="ramo">
+                    <img src="/layout-images/Mask group (13).png" alt="" class="h-100">
+                </div>
+                <p>Chá de Casa Nova</p>
+                <h1 >Wengles <span> & </span> Larissa</h1>
+                <div id="divisor">
+                    <img src="/layout-images/Mask group (15).png" alt="" class="h-100 w-100" >
+                </div>
+            </div>
+    
+
+        </div>
+        <div class="right-side position-relative ">
+            <div class="content-side">
+                <div class="bannerframe">
+                    <img src="/layout-images/banner-tst.png" alt="" >
+                    <!-- <img src="/layout-images/banner-image.png " alt="" class="cel-banner"> -->
+                </div>
+          
+            </div>
+        </div>
+        <div class="flor">
+            <img src="/layout-images/flor de canto.png" alt="" class="h-100 w-100" style="">
+        </div>
+    </div>
+</header>
+<main class="position-relative">
+    <div class="background-shape position-absolute" >
+        <img src="/layout-images/62424.png" alt="">
+    </div>
+    <div class="content-main-area position-relative text-center container py-5 d-flex flex-column" >
+        <h1 id="title" class="mt-5 text-center">Chá de Casa Nova</h1>
+        <div id="divisor-main">
+            <img src="/layout-images/Mask group (12).png" alt="" class="h-100 w-100">
+        
+        </div>
+     
+        <h5 id="invitation " class="text-center">Convidamos você para participar desta fase tão especial  !</h5>
+        <p id="information" class="w-100 text-left">
+            Estamos vivendo uma nova etapa emocionante em nossas vidas, com grandes realizações e uma delas foi a conquista da nossa casa, por isso criamos esse site para convida-lo a participar desse momento tão unico para nós.
+            <br>
+            <br>
+            Além disso, para tornar esse momento ainda mais memorável, preparamos uma lista de <span>presentes</span>  especialmente selecionados, onde você pode escolher algo que nos ajudará a decorar e tornar nosso novo lar ainda mais aconchegante. <br><br> Se preferir, também oferecemos a opção de contribuir através do <span>Pix</span>, para que você possa participar conosco, independente da distância. Estamos muito gratos por compartilhar esse momento especial com você e esperamos ansiosamente pela sua presença e carinho.
+        </p>
+
+        <div class="contador d-flex  gap-3 my-5">
+            <div class="contador d-flex  gap-3 my-5">
+                <div class="dias" id="count">
+                    <span id="days">0</span>
+                    <p>dias</p>
+        
+                </div>
+                <div class="horas" id="count">
+                    <span id="hours">0</span>
+                    <p>horas</p>
+        
+        
+                </div>
+                <div class="minutos" id="count">
+                    <span id="minutes">0</span>
+                    <p>segundos</p>
+        
+        
+                </div>
+                <div class="segundos" id="count">
+                    <span id="seconds">0</span>
+                    <p>segundos</p>
+        
+        
+                </div>
+            </div>
+        </div>
+        <!-- <div class="main-flower position-absolute">
+            <img src="/layout-images/right-flower.png" alt="" class="h-100">
+        </div> -->
+    </div>
+</main>
+<section class="mb-5">
+    <div class="section-banner-area text-center position-relative d-flex flex-column">
+        <div class="section-details-title d-flex flex-column my-5 py-5 text-uppercase text-white">
+            <h4 id="invitation-section" class="d-flex"  >  <hr class="me-2"> Você é uma peça importante deste nosso <hr class="ms-2"> </h4> 
+            <h1 id="invitation-main" >novo passo</h1>
+        </div>
+        <div class="button-area d-flex gap-5 justify-content-center ">
+            <a href="/confirmação.html" class=" btn-confirmation me-5 pen-info"><button  style="background-color: transparent;"> confirmar presença</button></a>
+            <a href="/lista-de-presentes.html" class="btn-gift ms-5 pen-info"><button> Lista de presentes</button></a>
+        </div>
+       
+       
+        <div class="radius-frame align-self-center">
+            <img src="/layout-images/radius-img.png" alt="">
+        </div>
+        <div class="section-filter h-100 w-100 position-absolute">
+
+        </div>
+    </div>
+  
+    <div class="text-section text-center d-flex flex-column ">
+        <div class="ver-txt w-50 text-center  align-self-center d-flex flex-column position-relative">
+            <div id="ramo">
+                <img src="/layout-images/Mask group (16).png" alt="" class="h-100">
+            </div>
+            <p id="texto" class="">
+
+                “ O amor é paciente, o amor é bondoso. Não inveja, não se vangloria, não se orgulha.
+                Não maltrata, não procura seus interesses, não se ira facilmente, não guarda rancor.
+                O amor não se alegra com a injustiça, mas se alegra com a verdade. Tudo sofre
+                tudo crê, tudo espera, tudo suporta. “
+            </p>
+            <p id="vesiculo" class="w-100  text-uppercase mb-5">
+                1º corintios 13 4-7
+            </p>
+            <!-- <div class="flower-complement">
+                <img src="/layout-images/flores.png" alt="" class="w-100 h-100">
+            </div> -->
+                
+
+           
+                
+        </div>
+       
+       
+    </div>
+</section>
+<section >
+    <div class="galery-main d-flex flex-column">
+        <div class="section-details-title d-flex flex-column my-5 py-5 text-uppercase text-center w-100">
+            <h4 id="invitation-section" class="d-flex align-self-center"  >  <hr class="me-2"> nossos momentos <hr class="ms-2"> </h4> 
+        
+        </div>
+        <div class="container">
+          
+            <div class="galery gap-5 d-flex justify-content-center flex-wrap position-relative">
+             
+                <div class="img-content">
+                    <img src="layout-images/IMG-20240419-WA0003.jpg" class="img-fluid" alt="Imagem 1">
+                    <div id="desc-galery" class="w-100">
+                       <span>W <i class="bi bi-balloon-heart-fill"></i> L</span>
+                    </div>
+
+                </div>
+                
+                <div class="img-content">
+                    <img src="layout-images/IMG-20240419-WA0004.jpg" class="img-fluid" alt="Imagem 2">
+                     <div id="desc-galery" class="w-100">
+                       <span>W <i class="bi bi-balloon-heart-fill"></i> L</span>
+                    </div>
+                </div>
+                <div class="img-content">
+                    <img src="layout-images/IMG-20240419-WA0005.jpg" class="img-fluid" alt="Imagem 3">
+                     <div id="desc-galery" class="w-100">
+                       <span>W <i class="bi bi-balloon-heart-fill"></i> L</span>
+                    </div>
+                </div>
+                <div class="img-content">
+                    <img src="layout-images/IMG-20240419-WA0006.jpg" class="img-fluid" alt="Imagem 4">
+                     <div id="desc-galery" class="w-100">
+                       <span>W <i class="bi bi-balloon-heart-fill"></i> L</span>
+                    </div>
+                </div>
+                <div class="img-content">
+                    <img src="layout-images/IMG-20240419-WA0010.jpg" class="img-fluid" alt="Imagem 5">
+                     <div id="desc-galery" class="w-100">
+                       <span>W <i class="bi bi-balloon-heart-fill"></i> L</span>
+                    </div>
+                </div>
+                <div class="img-content">
+                    <img src="layout-images/IMG-20240419-WA0012.jpg" class="img-fluid" alt="Imagem 6">
+                     <div id="desc-galery" class="w-100">
+                       <span>W <i class="bi bi-balloon-heart-fill"></i> L</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="cards-section position-relative overflow-hidden">
+    <div class="section-details-title d-flex flex-column my-5 py-5 text-uppercase text-center w-100">
+        <h4 id="invitation-section" class="d-flex align-self-center"  >  <hr class="me-2">mais informações <hr class="ms-2"> </h4> 
+    
+    </div>
+   <div class="cards-area d-flex  container gap-5 my-5 py-5 overflow-hidden" >
+   
+
+        <div class="cards-item ">
+            <a href="/lista-de-presentes.html" class="text-center d-flex flex-column" style="text-decoration: none;">
+                <p id="title-card" class="text-dest">presentes</p>
+                <i class="bi bi-gift my-2"></i>
+                <h5 class="main-txt">conferir lista de presentes</h5>
+                <hr class="line-card">
+                <p class="text-dest">não se esqueça de contribuir</p>
+            </a>
+        </div>
+    
+
+        <div class="cards-item text-center d-flex flex-column" data-bs-toggle="modal" data-bs-target="#dateModal" id="dataLocal">
+            <p id="title-card" class="text-dest">data</p>
+            <i class="bi bi-calendar-heart my-2"></i>
+            <h5 class="main-txt">20 de Julho <br> 15:00</h5>
+            <hr class="line-card">
+            <p class="text-dest">salve essa data</p>
+        </div>
+
+        <div class="cards-item ">
+            
+            <a href="https://maps.app.goo.gl/s1E8My5yrbUYapW29"   class="text-center d-flex flex-column" style="text-decoration: none;">
+                <p id="title-card" class="text-dest">local</p>
+                <i class="bi bi-geo-alt my-2"></i>
+                <h5 class="main-txt">Rua 135 Lote 10 pedIX</h5>
+                <hr class="line-card">
+                <p class="text-dest">ver no maps</p>
+            </a>
+        </div>
+   </div>
+   <div class="background-shape-s position-absolute" >
+    <img src="/layout-images/62424.png" alt="">
+</div>
+           
+   
+</section>
+<!-- modal horario -->
+<div class="modal fade" id="dateModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">20 de Julho as 15:00hs</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            Gostaríamos de compartilhar um pouco sobre a data do nosso chá de casa nova e sua importância para nós. Este é um momento especial em nossas vidas, onde celebraremos a conquista de algumas items do nosso novo lar e a próxima etapa de nossa jornada juntos.
+            <br><br>
+            Entendemos que todos têm suas próprias obrigações e limitações, e queremos que saibam que respeitamos totalmente isso. No entanto, queremos expressar o quanto é significativo para nós contar com a presença de todos vocês neste dia tão especial.
+            <br><br>
+            Sabemos que às vezes pode ser difícil encontrar tempo em meio a agendas lotadas, mas queremos assegurar que haverá tempo suficiente para todos se planejarem e se prepararem para participar deste momento conosco.
+            <br><br>
+            Para evitar qualquer inconveniente, também gostaríamos de informar que entraremos em contato mais perto da data para confirmar a presença de cada um de vocês. Isso nos ajudará a garantir que tudo esteja organizado da melhor forma possível para recebermos todos vocês com carinho e alegria.
+            <br><br>
+            <p>
+                caso ainda não tenha colocado seu nome na lista, e só clicar no botão abaixo e voce sera direcionado para a aba de confirmação
+            </p>
+        </div>
+        <div class="modal-footer d-flex">
+
+          <a href=""><button type="button" class="btn  align-self-center w-100">Confirmar Presença</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- _________________________ -->
+
+<!-- modal sobre -->
+<div class="modal fade" id="sobreModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Sobre</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            Este site foi cuidadosamente criado para garantir o acesso mais fácil e conveniente a todos os nossos queridos convidados. Aqui, você encontrará informações importantes, como o horário e local do evento, detalhes sobre a lista de presentes e qualquer outra informação relevante que possa precisar.
+            <br><br>
+            Nosso objetivo é tornar este momento especial o mais memorável e agradável possível para todos, e é por isso que criamos este espaço online para facilitar a comunicação e o compartilhamento de detalhes importantes.
+            <br><br>
+            Agradecemos por estar aqui e esperamos que este site seja útil para você. Fique à vontade para explorar e não hesite em nos contatar se precisar de mais alguma informação.
+        </div>
+      
+      </div>
+    </div>
+  </div>
+
+  <footer class="text-center py-4">
+    <p>
+        Em caso de duvidas estamos a uma mensagem de distancia.
+    </p>
+    <div class="btn-footer btn draw-border">
+        <a  href="https://wa.me/556182103445">
+            <i class="fa-brands fa-whatsapp" ></i>
+        </a>
+    </div>
+  
+  
+
+</footer>
+
+
+
+
+
+
+    <!-- <p id="area"  style="display: none !important;"></p> -->
+    <!-- <div class="modal w-100 h-100  justify-content-center align-items-center position-relative " >
+     
+
+        <div class="item-exib w-75 h-75  d-flex justify-content-center align-items-center  position-relative flex-column " style="background-color: gray;">
+            <button class="close-modal">x</button>
+            <div class="item-img">
+                <img src="" alt="" >
+            </div>
+            <h3 class="item-name"></h3>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium iure laborum dignissimos tempora, natus voluptate ut modi doloremque esse facere fugiat quos asperiores numquam mollitia amet minima iusto, nihil fuga?</p>
+
+            <button class="gift">Dar presente</button>
+        </div>
+    </div> -->
+   
+<!-- <form id="presenteForm">
+    <label for="nome">Nome do presente:</label>
+    <input type="text" id="nome" required>
+    <label for="categoria">Categoria:</label>
+    <select id="categoria">
+        <option value="sala">Sala</option>
+        <option value="quarto">Quarto</option>
+        <option value="banheiro">Banheiro</option>
+        <option value="lavanderia">Lavanderia</option>
+        <option value="eletrodomesticos">Eletrodomésticos</option>
+        <option value="utensilios">Utensílios</option>
+    </select>
+    <button type="button" onclick="adicionarPresente()">Adicionar</button>
+</form> -->
+<!-- <button id="btn-reset" class=" position-absolute" style="background-color: red; width:200px; height:30px;" ></button> -->
+    <div class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2 class="item-name"></h2>
+            <div class="item-img">
+                <img src="" alt="Imagem do item">
+            </div>
+            <button class="gift">enviar</button>
+        </div>
+    </div>
+   <!-- <form id="formulario">
+    <div>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" required>
+    </div>
+    <div>
+        <label for="numero">Número:</label>
+        <input type="number" id="numero" required>
+    </div>
+    <button type="button" class="btn" >Adicionar</button>
+</form> -->
+    
+    <script src="/assets/bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+    
+</body>
+<!-- <script src="presentes.js"></script> -->
+
+<script type="module" src="script.js" type="module"></script>
+<script src="https://kit.fontawesome.com/3ed61788b1.js" crossorigin="anonymous"></script>
+
+</html>

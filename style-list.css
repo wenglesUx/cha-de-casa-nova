@@ -1,0 +1,219 @@
+body{
+    overflow-x: hidden !important;
+    position: relative;
+}
+.text-section{
+    background-image: linear-gradient(to bottom, #fbdcd8,#fbdcd8,#fbdcd8, transparent) !important;
+    background-color:transparent;
+    padding: 5%;
+   
+}
+.ver-txt p{
+  z-index: 3;
+}
+.modal{
+    display: none;
+    background-color: #ebeaea;
+    border-radius: 10px;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo semi-transparente */
+    z-index: 999; /* Certifique-se de que está acima de todos os outros elementos */
+    display: none; /* Inicialmente oculto */
+  }
+.close-modal{
+    height: 20px;
+    width: 20px;
+    border-radius:50%;
+    background-color: var(--secondary-color);
+    color:white !important;
+    position: absolute;
+    right:0;
+    top:0;
+    padding: 1rem !important;
+    margin: 10px;
+}
+.item-name{
+    font-family: 'poppins';
+    color:#505050
+}
+button{
+    
+}
+.gift .bi-gift{
+    font-size: 1.3rem;
+    margin-left: 10px;
+
+    transition: .5s linear;
+    color:white
+
+}
+
+.gift{
+    background-color: var(--secondary-color);
+    color:white;
+    transition: .5s linear;
+
+}
+.gift:hover{
+    background-color: var(--tertiary-color);
+}
+.close-modal i{
+    color:white;
+}
+.item-img{
+height:200px;
+width:200px;
+border-radius:50%;
+overflow: hidden;
+}
+.item-img img{
+    object-fit: cover;
+    object-position: center;
+    width:100%;
+    height:100%;
+}
+
+.item-disabled {
+        text-decoration: line-through;
+        color:#cecece;
+        pointer-events: none;
+        background-color: aliceblue;
+}
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Julius Sans One';
+
+}
+.listArea{
+    padding: 2rem 0.5rem;
+    width:100%;    
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap:1rem;
+    margin-top: 2rem;
+}
+li{
+    height:30px;
+    /* background-color: rgb(212, 212, 212); */
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: 'poppins';
+    border-bottom: 1px solid rgb(218, 216, 216) ;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    text-wrap: wrap;
+    width: 95%;
+ 
+}
+li:hover{
+    font-size: 1.5rem;
+    height: 35px;
+    background-color: rgb(212121);
+    color:#afafaf;
+    background-color: rgb(255, 255, 255);
+}
+#instrucoes{
+    font-weight: normal;
+    color:#505050;
+    font-size: 0.7rem;
+    line-height: 20px;
+}
+footer{
+    position: absolute;
+    bottom:0;
+    height: 40px;
+    width:100%;
+    margin-top:10rem;
+    background-color: #505050;
+    
+}
+details{
+    transition: .5s ease-in-out !important;
+}
+details>summary {
+ 
+    list-style: none;
+  }
+  summary::-webkit-details-marker {
+    display: none
+  }
+  
+
+  summary::after {
+    content: ' ►';
+    transition: .2s linear;
+   
+  }
+  
+  
+  details[open] summary:after {
+    content: " ▼";
+   
+    
+  }
+  .area-pix{
+    color:#505050;
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    transition: .5s ease-in-out !important;
+
+  }
+  summary{
+    width: 100%;
+    display: flex;
+    transition: .5s ease-in-out !important;
+    justify-content: space-between;
+  }
+  summary h4{
+    color:#505050;
+    font-family: 'poppins';
+  }
+  #qr-title{
+    font-weight: bold;
+    color:#505050 !important
+  }
+  #qr-area{
+    padding:10px;
+  }
+  #codigo{
+    text-transform: none;
+    background-color: #e9e9e9;
+    padding: 20px 10px ;
+    font-size: 0.8rem;
+    display: flex;
+    gap: 5px;
+    position:relative;
+    transition: .5s ease-in-out;
+ 
+  }
+  #ccg{
+    align-self: center;
+   
+    width: 100%;
+  }
+  #codigo span{
+    font-weight: normal !important;
+    color:#808080 !important;
+    position:absolute;
+    margin-top: 0rem;
+    align-self: center;
+    width: 100%;
+    opacity: 0;
+  }
+  .spanCDactive{
+    margin-top: 3rem !important;
+    opacity: 1 !important;
+    transition: .5s ease-in-out;
+  }
