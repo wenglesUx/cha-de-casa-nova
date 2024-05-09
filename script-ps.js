@@ -70,7 +70,7 @@ async function loadItems() {
 
                         const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
-                        window.open(whatsappLink);
+                        window.open(whatsappLink,'_self');
 
                         // Desabilita o item clicado
                         listItem.classList.add('item-disabled');
@@ -80,7 +80,7 @@ async function loadItems() {
                             ...item,
                             disponivel: false
                         });
-                        location.reload()
+                       
                         
                     });
                 });
@@ -92,8 +92,9 @@ async function loadItems() {
                 document.querySelector('.item-img img').src = "";
                 document.querySelector('.item-name').innerHTML = "";
             }
-
+            
             document.querySelector('.close-modal').addEventListener('click', closeModal);
+            document.querySelector('.back-modal').addEventListener('click', closeModal);
         });
 
         container.appendChild(list);
